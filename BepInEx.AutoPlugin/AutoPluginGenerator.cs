@@ -123,7 +123,7 @@ namespace BepInEx.Preloader.Core.Patching
 namespace {typeSymbol.ContainingNamespace.ToDisplayString()}
 {{
     [{attributeName}({typeSymbol.Name}.Id, ""{name}"", ""{version}"")]
-    public partial class {typeSymbol.Name}
+    partial class {typeSymbol.Name}
     {{
         /// <summary>
         /// Id of the <see cref=""{typeSymbol.Name}""/>.
